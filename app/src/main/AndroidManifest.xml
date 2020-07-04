@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".telaQuiz"></activity>
-        <activity android:name=".QuartoOttoDireita" />
+        <activity android:name=".QuartoOttoDireita" android:theme="@style/AppTheme.SlidrActivityTheme"/>
         <activity android:name=".QuartoOttoEsquerda" />
         <activity
             android:name=".MainActivity"
