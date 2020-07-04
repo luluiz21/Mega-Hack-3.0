@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".QuartoOttoDireita"></activity>
+        <activity android:name=".telaQuiz"></activity>
+        <activity android:name=".QuartoOttoDireita" />
         <activity android:name=".QuartoOttoEsquerda" />
         <activity
             android:name=".MainActivity"
