@@ -11,11 +11,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
-
+    View chao;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        chao = findViewById(R.id.chaoView);
+        chao.setBackgroundColor(getResources().getColor(android.R.color.darker_gray));
 
     }
 

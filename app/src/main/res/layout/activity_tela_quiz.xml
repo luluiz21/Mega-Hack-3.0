@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,24 +12,28 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/abc_vector_test" />
 
     <ProgressBar
         android:id="@+id/vertical_progressbar"
         style="@style/Widget.ProgressBar.Vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="106dp"
-        android:layout_marginEnd="361dp"
-        android:layout_marginBottom="139dp" />
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/opcao1"
@@ -37,9 +41,11 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/opcao2"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="30dp"
-        android:text="Button" />
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="36dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/opcao2"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/opcao2"
@@ -47,9 +53,11 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/opcao3"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="30dp"
-        android:text="Button" />
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="36dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/opcao3"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/opcao3"
@@ -57,9 +65,11 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/opcao4"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="30dp"
-        android:text="Button" />
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="36dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/opcao4"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/opcao4"
@@ -67,9 +77,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="139dp"
-        android:text="Button" />
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="116dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/pergunta"
@@ -77,8 +89,10 @@
         android:layout_height="254dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="37dp"
-        android:text="Pergunta" />
-
-</RelativeLayout>
+        android:layout_marginEnd="16dp"
+        android:text="Pergunta"
+        app:layout_constraintBottom_toTopOf="@+id/opcao1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+</androidx.constraintlayout.widget.ConstraintLayout>
