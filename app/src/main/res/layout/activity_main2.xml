@@ -7,12 +7,24 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/chaoMeio"
+        android:id="@+id/chaoEsquerda"
         android:layout_width="match_parent"
         android:layout_height="422dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="581dp"
         app:srcCompat="@drawable/chao" />
+
+    <ImageView
+        android:id="@+id/cama"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/cama" />
 
     <ImageView
         android:id="@+id/quadroMapaBrasil"
@@ -21,20 +33,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="29dp"
-        app:srcCompat="@drawable/janela" />
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@drawable/quadroBrasil" />
 
-    <ImageView
-        android:id="@+id/cama"
-        android:layout_width="190dp"
-        android:layout_height="257dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="216dp"
-        android:layout_marginBottom="83dp"
-        app:srcCompat="@drawable/criadoMudo" />
 </RelativeLayout>
