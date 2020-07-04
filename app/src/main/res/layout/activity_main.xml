@@ -17,12 +17,13 @@
 
     <ImageView
         android:id="@+id/quadroMapaBrasil"
-        android:layout_width="350dp"
-        android:layout_height="350dp"
+        android:layout_width="338dp"
+        android:layout_height="327dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/janela" />
@@ -40,15 +41,34 @@
         app:srcCompat="@drawable/criado_mudo" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/botaoParaOQuartoDireita"
         android:layout_width="102dp"
         android:layout_height="40dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="340dp"
-        android:onClick="quartoOttoDireita"
-        android:text="Button"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="356dp"
+        android:text="Direita"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/botaoParaOQuartoEsquerda"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="356dp"
+        android:text="Esquerda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="171dp"
+        android:layout_height="320dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/otoo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

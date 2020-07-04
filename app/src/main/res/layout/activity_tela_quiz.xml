@@ -6,8 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".telaQuiz">
 
+    <ImageButton
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background_madeira"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/botaoVoltarTelaInicial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -42,7 +50,7 @@
         android:layout_above="@+id/opcao2"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="20dp"
         android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/opcao2"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -54,7 +62,7 @@
         android:layout_above="@+id/opcao3"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="20dp"
         android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/opcao3"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -66,7 +74,7 @@
         android:layout_above="@+id/opcao4"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="20dp"
         android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/opcao4"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -91,8 +99,34 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="16dp"
         android:text="Pergunta"
-        app:layout_constraintBottom_toTopOf="@+id/opcao1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageView3"
+        android:layout_width="416dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:srcCompat="@drawable/botao_escrever_pergunta" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ganhe mais pontos!
+        \nFaça você também suas perguntas!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
