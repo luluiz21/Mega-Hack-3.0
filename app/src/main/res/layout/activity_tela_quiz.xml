@@ -38,7 +38,7 @@
         android:layout_marginBottom="116dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -51,7 +51,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="20dp"
-        android:text="Button"
+        android:text="Numa mansão"
         app:layout_constraintBottom_toTopOf="@+id/opcao2"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -63,7 +63,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="20dp"
-        android:text="Button"
+        android:text="Num trapiche"
         app:layout_constraintBottom_toTopOf="@+id/opcao3"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -75,7 +75,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="20dp"
-        android:text="Button"
+        android:text="Num barraco"
         app:layout_constraintBottom_toTopOf="@+id/opcao4"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -87,7 +87,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="116dp"
-        android:text="Button"
+        android:text="Na casa de Pedro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -98,7 +98,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="16dp"
-        android:text="Pergunta"
+        android:text="Onde viviam os Capitães da Areia?"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

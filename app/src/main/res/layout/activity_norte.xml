@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Norte">
+    <ImageView
+        android:id="@+id/mapaNorte"
+        android:layout_width="335dp"
+        android:layout_height="636dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/complementoArvore"
+        app:srcCompat="@drawable/mapa_norte" />
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/multiWaveHeader2"
+        android.id="@+id/sand_header"
+        android:layout_width="412dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="132dp"
+        android:scaleY="-1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/complementoArvore"
+        app:mwhCloseColor="@color/colorGreen2"
+        app:mwhStartColor="@color/colorGreen"
+        app:mwhVelocity="1" />
+
+    <ImageView
+        android:id="@+id/complementoArvore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/complemento_arvores"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <ImageView
+        android:id="@+id/arvore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="120dp"
+        app:srcCompat="@drawable/arvores"
+        tools:layout_editor_absoluteX="1dp" />
+
+
+
+    <ImageView
+        android:id="@+id/bumba"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/bumba"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <ImageView
+        android:id="@+id/chaoTerra"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/chao_terra"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="197dp" />
+    <ImageView
+        android:id="@+id/bumbaSkin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/bumba_skin"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <ImageView
+        android:id="@+id/baloes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/baloes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <ImageView
+        android:id="@+id/indio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/indio"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <ImageView
+        android:id="@+id/joseAlencar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/jose_alencar"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <ImageView
+        android:id="@+id/saibaMais1Norte"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/saiba_mais1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <ImageView
+        android:id="@+id/saibaMais2Norte"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/saiba_mais2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <ImageView
+        android:id="@+id/norteNome"
+        android:layout_width="373dp"
+        android:layout_height="634dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/norte" />
+
+    <ImageView
+        android:id="@+id/textos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/textos"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

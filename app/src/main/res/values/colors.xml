@@ -7,4 +7,8 @@
     <color name="colorBlack">#000000</color>
     <color name="colorSandBlack">#D9C555</color>
     <color name="colorSand">#E1D368</color>
+    <color name="colorGreen">#33A02B</color>
+    <color name="colorGreen2">#44C632</color>
+
+
 </resources>
