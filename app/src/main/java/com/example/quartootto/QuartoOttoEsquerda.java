@@ -17,7 +17,7 @@ public class QuartoOttoEsquerda extends AppCompatActivity {
         View chao = findViewById(R.id.chaoView);
         chao.setBackgroundColor(getResources().getColor(android.R.color.darker_gray));
         quartoOttoCentralPelaEsquerda();
-        camaTestButton();
+        mapaBrasilButton();
     }
     public void quartoOttoCentralPelaEsquerda(){
         Button direita = findViewById(R.id.botaoParaOQuartoCentralPeloQuartoEsquerdo);
@@ -32,15 +32,16 @@ public class QuartoOttoEsquerda extends AppCompatActivity {
 
     }
 
-    private void camaTestButton(){
-        ImageView cama = findViewById(R.id.cama);
-        cama.setOnClickListener(new View.OnClickListener() {
+    private void mapaBrasilButton(){
+        ImageView mapa = findViewById(R.id.quadroMapaBrasil);
+        mapa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(QuartoOttoEsquerda.this,MainActivity.class);
+                Intent intent = new Intent(QuartoOttoEsquerda.this,mapaDoBrasil.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+
             }
         });
     }
+
 }
